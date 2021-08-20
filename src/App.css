@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.main-section {
+  @apply px-4 pt-12 mx-auto max-w-7xl sm:pt-16 sm:px-6 md:pt-20 lg:pt-20 lg:px-8 xl:pt-24;
+}
+
+/* bg-gradient-to-r from-green-700 to-green-400  */
+
+.btn-brand {
+  @apply px-5 py-2 text-base text-white capitalize transition duration-200 ease-in-out transform bg-green-600 rounded focus:outline-none focus:ring-2 focus:ring-green-600 hover:scale-105 hover:bg-green-50 hover:text-green-600 hover:border-green-700;
+}
+
+.section-header {
+  @apply text-4xl font-extrabold tracking-wider text-green-600 uppercase;
+}
+
+.admin-nav {
+  @apply flex items-center py-5 pl-8 mb-6 space-x-3 text-green-100 transition duration-150 bg-transparent rounded hover:text-green-800 hover:bg-green-100;
+}
+
+.admin-section {
+  @apply relative md:flex;
+}
+
+.admin-subSection-header {
+  @apply pt-4 pb-8 text-2xl font-bold tracking-wider text-center text-green-900 uppercase md:text-left;
+}
+
+.user-header {
+  @apply py-8 text-2xl font-bold tracking-wider text-center text-green-900 uppercase;
+}

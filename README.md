@@ -1,5 +1,5 @@
 ## Getting Started with Dirty Wash - Your Laundry Solution
-Checkout the app : 
+Checkout the app : https://dirty-wash.firebaseapp.com/
 
 ## `Tech Stack`
 1. React.js
